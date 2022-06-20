@@ -1,0 +1,54 @@
+RangeIndex: 147 entries, 0 to 146
+Data columns (total 9 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   Date       147 non-null    object 
+ 1   Location   147 non-null    object 
+ 2   Details    147 non-null    object 
+ 3   Bear       147 non-null    object 
+ 4   Latitude   147 non-null    float64
+ 5   Longitude  147 non-null    float64
+ 6   Name       146 non-null    object 
+ 7   Age        147 non-null    int64  
+ 8   Gender     147 non-null    object 
+dtypes: float64(2), int64(1), object(6)
+memory usage: 10.5+ KB
+Index(['Date', 'Location', 'Details', 'Bear', 'Latitude', 'Longitude', 'Name',
+       'Age', 'Gender'],
+      dtype='object')
+0      Polar
+1      Polar
+2      Polar
+3      Polar
+4      Polar
+       ...  
+142    Brown
+143    Brown
+144    Brown
+145    Brown
+146    Brown
+Name: Bear, Length: 147, dtype: object
+0        male
+1        male
+2      female
+3        male
+4        male
+        ...  
+142      male
+143      male
+144      male
+145      male
+146      male
+Name: Gender, Length: 147, dtype: object
+0      33
+1      31
+2      64
+3      28
+4      46
+       ..
+142    57
+143    35
+144    43
+145    46
+146    68
+Name: Age, Length: 147, dtype: int64
