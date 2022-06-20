@@ -1,0 +1,33 @@
+                Date                    Location  ...   Age  Gender
+0    August 23, 2018       Lyon Inlet, Nunavut    ...  33.0    male
+1       July 3, 2018      Sentry Island, Nunavut  ...  31.0    male
+2       July 9, 1999  near Rankin Inlet, Nunavut  ...  64.0  female
+3   December 8, 1990           Point Lay, Alaska  ...  28.0    male
+4  November 29, 1983         Churchill, Manitoba  ...  46.0    male
+
+[5 rows x 9 columns]
+    Age  Bear_Black  Bear_Brown  Bear_Polar  Gender_female  Gender_male
+0  33.0           0           0           1              0            1
+1  31.0           0           0           1              0            1
+2  64.0           0           0           1              1            0
+3  28.0           0           0           1              0            1
+4  46.0           0           0           1              0            1
+                Date                    Location  ... Age  Gender
+0    August 23, 2018       Lyon Inlet, Nunavut    ...  33    male
+1       July 3, 2018      Sentry Island, Nunavut  ...  31    male
+2       July 9, 1999  near Rankin Inlet, Nunavut  ...  64  female
+3   December 8, 1990           Point Lay, Alaska  ...  28    male
+4  November 29, 1983         Churchill, Manitoba  ...  46    male
+
+[5 rows x 9 columns]
+   Age  Bear_Black  Bear_Brown  Bear_Polar
+0   33           0           0           1
+1   31           0           0           1
+2   64           0           0           1
+3   28           0           0           1
+4   46           0           0           1
+Accuracy:  0.0
+Fitting 5 folds for each of 150 candidates, totalling 750 fits
+The best model setting on cross-validation:  {'max_depth': 1, 'max_features': 4}
+The best model setting on cross-validation: 0.0
+The model without setting defining: 0.0
